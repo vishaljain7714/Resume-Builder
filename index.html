@@ -1,0 +1,44 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resume-builder">
+        <form class="inputField">
+            
+			<input type="text" id="name" placeholder="Name">
+            
+			<input type="text" id="title" cols="40" rows ="3" placeholder="Title">
+
+            <textarea type="text" id="contact" placeholder="Contact"cols="40" rows ="3"cols="40" rows ="30"></textarea>
+            
+			<textarea id="objective" placeholder="Objective" cols="40" rows ="3"></textarea>
+            
+			<textarea id="skills" placeholder="Skills" cols="40" rows ="3" cols="40" rows ="3" cols="40" rows ="3"></textarea>
+            
+			<textarea id="academic_details" cols="40" rows ="3" placeholder="Academic Details" cols="40" rows ="3"></textarea>
+            
+            <textarea id="work_experience" cols="40" rows ="3" placeholder="Work Experience" cols="40" rows ="3"cols="40" rows ="3"></textarea>
+            
+			<textarea id="achievements" cols="40" rows ="3" placeholder="Achievements"cols="40" rows ="3"cols="40" rows ="3"></textarea>
+
+
+            <textarea id="projects" cols="40" rows ="3" cols="40" rows ="3"placeholder="Projects"></textarea>
+            
+			<button type="button" onclick="hide()">Preview Resume</button>
+        </form>
+    </div>
+
+    <div class="output_container" style="display: none;">
+        <!-- Output content will be dynamically added here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
