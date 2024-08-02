@@ -1,0 +1,21 @@
+{
+  "name": "react-cv-example",
+  "version": "1.0.0",
+  "description": "Example project for react-cv",
+  "source": "index.html",
+  "author": "sbayd",
+  "license": "MIT",
+  "scripts": {
+    "watch": "parcel index.html",
+    "build": "parcel build --public-url /react-cv/"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-cv": "link:../",
+    "react-dom": "^18.2.0"
+  }
+}
